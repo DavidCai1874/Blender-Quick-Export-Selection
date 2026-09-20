@@ -10,3 +10,6 @@ website = "https://github.com/DavidCai1874/Blender-Quick-Export-Selection"
 tags = ["Pipeline"]
 blender_version_min = "4.5.0"
 license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths = ["__init__.py", "LICENSE"]
