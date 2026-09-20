@@ -51,7 +51,7 @@ class VIEW3D_PT_quick_export_selection(bpy.types.Panel):
 
         # create a button for each export format defined in EXPORT_FORMATS
         for format_id, format_data in EXPORT_FORMATS.items():
-            button = column.operator("quick_export.export_selected", text=format_data["label"]) 
+            button = column.operator("quick_export.export_selected", text=format_data["label"], icon="EXPORT")
             button.export_format = format_id # Set the export format for the button from the dictionary key to the EnumProperty of the operator
 # panel ends
 
