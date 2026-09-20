@@ -8,9 +8,12 @@ Blender's "Selected Only" export option isn't enabled by default. It's easy to f
 
 ## Installation
 
-1. Download `__init__.py`.
-2. Open Blender's Add-ons preferences, choose "Install from Disk", and select `__init__.py`.
-3. Enjoy!
+Requires Blender 4.5 or newer.
+
+1. Download `quick_export_selection-0.1.0.zip`. Do not extract it.
+2. In Blender, open **Edit > Preferences > Get Extensions**.
+3. Open the menu in the upper-right corner, choose **Install from Disk**, and select the ZIP file.
+4. Enable the extension if it is not enabled automatically.
 
 ## How It Works
 
