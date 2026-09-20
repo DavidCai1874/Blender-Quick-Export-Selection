@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+
+id = "quick_export_selection"
+version = "0.1.0"
+name = "Quick Export Selection"
+tagline = "Quick Export Selected Object(s)"
+maintainer = "DavidCai1874 <davidcai1874@gmail.com>"
+type = "add-on"
+website = "https://git.website.com/repos/template"
+tags = ["Pipeline"]
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
